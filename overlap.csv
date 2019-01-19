@@ -1,0 +1,15 @@
+direction,protocol,port,ip_address
+inbound,tcp,80,192.168.1.2
+inbound,tcp,80,192.168.0.2-192.168.1.1
+inbound,tcp,800,192.168.1.2
+inbound,tcp,800,192.168.0.2-192.168.1.2
+inbound,tcp,8000,192.168.1.2
+inbound,tcp,8000,192.168.2.2-192.168.3.2
+inbound,tcp,8000,192.168.0.2-192.168.3.1
+inbound,tcp,10,192.168.1.2
+inbound,tcp,10,192.168.2.2-192.168.3.2
+inbound,tcp,10,192.168.0.2-192.168.3.4
+inbound,tcp,100,192.168.1.2
+inbound,tcp,100,192.168.1.2-192.168.3.4
+inbound,tcp,1000,192.168.1.2
+inbound,tcp,1000,192.168.2.2-192.168.3.4
